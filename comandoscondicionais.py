@@ -17,19 +17,20 @@ if impar:
 
  if a > b:
      print("O maior número é", a)
-# else:
-#     print("O maior número é", b)
+ else:
+     print("O maior número é", b)
 
-# a = float(input("Digite o primeiro número: "))
-# b = float(input("Digite o segundo número: "))
+ a = float(input("Digite o primeiro número: "))
+ b = float(input("Digite o segundo número: "))
 
-# if a == b:
-#     print("Os dois número são iguais")
-# else:
-#     print("Os numeros sao diferentes")
-# if a > b:
-#     print("O número é o primeiro")
-# else:
-#     print("O maior número é o segundo")
+ if a == b:
+     print("Os dois número são iguais")
+ else:
+     print("Os numeros sao diferentes")
+ if a > b:
+     print("O número é o primeiro")
+ else:
+     print("O maior número é o segundo")
+
 
 
